@@ -10,13 +10,19 @@
       "id": 2,
       "text": "Meetings",
       "day": "May 6th  2:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
       "text": "Shopping",
       "day": "May 7th 2:30pm",
       "reminder": false
+    },
+    {
+      "text": "asd",
+      "day": "asd",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

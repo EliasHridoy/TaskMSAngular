@@ -26,4 +26,7 @@ private apiUrl = 'http://localhost:5000/tasks';
     const url = `${this.apiUrl}/${task.id}`;
     return this._http.put<TaskModel>(url,task, httpOptions)
   }
+  AddTask(Task:TaskModel):Observable<TaskModel>{
+    return this._http.post<TaskModel>(this.apiUrl,Task)
+  }
 }
